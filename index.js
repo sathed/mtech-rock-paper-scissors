@@ -1,7 +1,7 @@
 var AWS = require('aws-sdk');
 var s3 = new AWS.S3();
 
-exports.handler = async(event, context) => {
+exports.handler = (event, context) => {
     // Determine the winning choice
     // Rock loses to paper, paper loses to scissors, etc.
 
